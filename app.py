@@ -4,9 +4,9 @@ import io
 import zipfile
 from openpyxl import load_workbook
 
-st.set_page_config(page_title="Generator Template SPD", page_icon="📄")
+st.set_page_config(page_title="Generator Template SPD 1", page_icon="📄")
 
-st.title("📄 Generator Template SPD")
+st.title("📄 Generator Template SPD 1")
 
 # Upload database dan template
 db_file = st.file_uploader("Upload Database (Excel/CSV)", type=["xlsx", "csv"])
